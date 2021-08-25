@@ -14,14 +14,25 @@ public class PrimitiveTypeConvertion {
         //Convert String to Int
         var Age = Integer.parseInt("20");
         System.out.println("Age = " + (Age + 1));
-        
-        var PiValue = Double.parseDouble("3.1416");
-        System.out.println("PiValue = " + PiValue);
-        
-        //Ask for a value
+//        
+//        var PiValue = Double.parseDouble("3.1416");
+//        System.out.println("PiValue = " + PiValue);
+//        
+//        //Ask for a value
         var console = new Scanner(System.in);
-        Age = Integer.parseInt( console.nextLine() );
-        System.out.println("Age = " + Age);
+//        String a = console.nextLine();
+//        System.out.println("a = " + a);
+//        Age = Integer.parseInt( console.nextLine() );
+//        System.out.println("Age = " + Age);
         
+        var AgeText = String.valueOf(10);
+        System.out.println("AgeText = " + AgeText);
+
+        var Character = "hello".charAt(0);
+        System.out.println("Character = " + Character);
+        
+        System.out.println("Enter a character ");
+        Character = console.nextLine().charAt(1);
+        System.out.println("Character = " + Character);
     }
 }
