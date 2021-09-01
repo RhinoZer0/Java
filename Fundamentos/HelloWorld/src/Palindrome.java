@@ -1,3 +1,5 @@
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -10,23 +12,24 @@
  */
 public class Palindrome {
     public static void main(String args[]){
-        String A = "an itala  v       al atina";
-        int size = A.length();
+        String A = "Murder for a jar of red rum";
+        String B = A.toLowerCase();
+        int size = B.length();
         System.out.println("size = " + size);
         int i=0;
         int j=size-1;
         boolean result = true;
         
         while(result && i<j){
-            while(A.charAt(i) == ' '){
+            while(B.charAt(i) == ' '){
                 i++;
             }
             
-            while(A.charAt(j) == ' '){
+            while(B.charAt(j) == ' '){
                 j--;
             }
             
-            result = A.charAt(i) == A.charAt(j);
+            result = B.charAt(i) == B.charAt(j);
             System.out.println("i = " + i);
             System.out.println("j = " + j);
             i++;
