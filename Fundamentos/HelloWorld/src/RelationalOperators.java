@@ -26,5 +26,21 @@ public class RelationalOperators {
         
         var f = cadena1.equals(cadena2); //Compare strings contents
         System.out.println("f = " + f);
+        
+        var g = (a >= b);
+        System.out.println("g = " + g);
+        
+        if( a % 2 == 0)
+            System.out.println("Pair number");
+        else
+            System.out.println("Odd number");
+        
+        int Age = 10;
+        int Adult = 18;
+        
+        if(Age >= Adult)
+            System.out.println("Is an adult");
+        else
+            System.out.println("Is a child");
     }
 }
