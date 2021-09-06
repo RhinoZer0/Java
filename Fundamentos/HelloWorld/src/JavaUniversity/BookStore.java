@@ -1,3 +1,5 @@
+package JavaUniversity;
+
 import java.util.Scanner;
 
 public class BookStore {

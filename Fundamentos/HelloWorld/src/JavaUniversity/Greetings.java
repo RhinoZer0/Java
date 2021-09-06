@@ -1,3 +1,5 @@
+package JavaUniversity;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,9 +10,8 @@
  *
  * @author uidj7796
  */
-//My Java class
-public class HelloWorld {
+public class Greetings {
     public static void main(String args[]){
-        System.out.println("Lo edito de nuevo, guardo y ejecuto!!");
+        System.out.println("Hola Mundo desde Java"); 
     }
 }
