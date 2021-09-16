@@ -12,5 +12,7 @@ public class Person {
     {
         System.out.println("Name: " + name);
         System.out.println("lastName: " + lastName);
+        System.out.println(name + " " + lastName);
+        
     }
 }
